@@ -1,0 +1,19 @@
+#!/bin/bash
+
+SCRIPT_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+CLANG_WRAPPERS_PATH="${SCRIPT_PATH}/../clang_wrappers"
+
+if [ "${0%++}" != "$0" ]; then XX="++"; else XX=""; fi
+
+export FCP_CLANG_COMPILER="${CLANG_WRAPPERS_PATH%/}/filter_args_and_run_fcp_clang$XX";
+export FCP_RESULTS_DIR="${INFER_RESULTS_DIR}";
+
+if [ -z "$INFER_RESULTS_DIR" ]; then
+    # this redirects to the compiler without adding any FCP flag
+    # this is because xcode requires message category info from the compiler
+    # and invokes it without any env var set.
+    "$FCP_CLANG_COMPILER" "$@"
+    exit $?
+fi
+
+"${CLANG_WRAPPERS_PATH%/}/hijack_and_normalize_clang_command$XX" "$@" -fno-cxx-modules

@@ -1,0 +1,686 @@
+<"TranslationUnitDecl" : (
+  {
+    "pointer" : 1,
+    "source_range" : (
+      {
+      },
+      {
+      }
+    )
+  },
+  [
+    <"TypedefDecl" : (
+      {
+        "pointer" : 2,
+        "source_range" : (
+          {
+          },
+          {
+          }
+        ),
+        "is_implicit" : true
+      },
+      {
+        "name" : "__int128_t",
+        "qual_name" : [
+          "__int128_t"
+        ]
+      },
+      <"NoType">,
+      3,
+      {
+      }
+    )>,
+    <"TypedefDecl" : (
+      {
+        "pointer" : 4,
+        "source_range" : (
+          {
+          },
+          {
+          }
+        ),
+        "is_implicit" : true
+      },
+      {
+        "name" : "__uint128_t",
+        "qual_name" : [
+          "__uint128_t"
+        ]
+      },
+      <"NoType">,
+      3,
+      {
+      }
+    )>,
+    <"TypedefDecl" : (
+      {
+        "pointer" : 5,
+        "source_range" : (
+          {
+          },
+          {
+          }
+        ),
+        "is_implicit" : true
+      },
+      {
+        "name" : "__NSConstantString",
+        "qual_name" : [
+          "__NSConstantString"
+        ]
+      },
+      <"NoType">,
+      3,
+      {
+      }
+    )>,
+    <"TypedefDecl" : (
+      {
+        "pointer" : 6,
+        "source_range" : (
+          {
+          },
+          {
+          }
+        ),
+        "is_implicit" : true
+      },
+      {
+        "name" : "__builtin_ms_va_list",
+        "qual_name" : [
+          "__builtin_ms_va_list"
+        ]
+      },
+      <"NoType">,
+      3,
+      {
+      }
+    )>,
+    <"TypedefDecl" : (
+      {
+        "pointer" : 7,
+        "source_range" : (
+          {
+          },
+          {
+          }
+        ),
+        "is_implicit" : true
+      },
+      {
+        "name" : "__builtin_va_list",
+        "qual_name" : [
+          "__builtin_va_list"
+        ]
+      },
+      <"NoType">,
+      3,
+      {
+      }
+    )>,
+    <"NamespaceDecl" : (
+      {
+        "pointer" : 8,
+        "source_range" : (
+          {
+            "file" : "tests/using_directive.cpp",
+            "line" : 1,
+            "column" : 1
+          },
+          {
+            "line" : 5,
+            "column" : 1
+          }
+        )
+      },
+      {
+        "name" : "nsa",
+        "qual_name" : [
+          "nsa"
+        ]
+      },
+      [
+        <"NamespaceDecl" : (
+          {
+            "pointer" : 9,
+            "source_range" : (
+              {
+                "line" : 2,
+                "column" : 3
+              },
+              {
+                "line" : 4,
+                "column" : 3
+              }
+            )
+          },
+          {
+            "name" : "nsb",
+            "qual_name" : [
+              "nsb",
+              "nsa"
+            ]
+          },
+          [
+            <"VarDecl" : (
+              {
+                "pointer" : 10,
+                "source_range" : (
+                  {
+                    "line" : 3,
+                    "column" : 5
+                  },
+                  {
+                    "column" : 9
+                  }
+                ),
+                "is_used" : true,
+                "is_this_declaration_referenced" : true
+              },
+              {
+                "name" : "a",
+                "qual_name" : [
+                  "a",
+                  "nsb",
+                  "nsa"
+                ]
+              },
+              {
+                "type_ptr" : 11
+              },
+              {
+                "is_global" : true
+              }
+            )>
+          ],
+          {
+          },
+          {
+          }
+        )>
+      ],
+      {
+      },
+      {
+      }
+    )>,
+    <"UsingDirectiveDecl" : (
+      {
+        "pointer" : 12,
+        "source_range" : (
+          {
+            "line" : 6,
+            "column" : 1
+          },
+          {
+            "column" : 22
+          }
+        )
+      },
+      {
+        "name" : "<using-directive>",
+        "qual_name" : [
+          "<using-directive>"
+        ]
+      },
+      {
+        "using_location" : {
+          "column" : 1
+        },
+        "namespace_key_location" : {
+          "column" : 7
+        },
+        "nested_name_specifier_locs" : [
+          {
+            "kind" : <"Namespace">,
+            "ref" : {
+              "kind" : <"Namespace">,
+              "decl_pointer" : 8,
+              "name" : {
+                "name" : "nsa",
+                "qual_name" : [
+                  "nsa"
+                ]
+              }
+            }
+          }
+        ],
+        "nominated_namespace" : {
+          "kind" : <"Namespace">,
+          "decl_pointer" : 9,
+          "name" : {
+            "name" : "nsb",
+            "qual_name" : [
+              "nsb",
+              "nsa"
+            ]
+          }
+        }
+      }
+    )>,
+    <"NamespaceAliasDecl" : (
+      {
+        "pointer" : 13,
+        "source_range" : (
+          {
+            "line" : 7,
+            "column" : 1
+          },
+          {
+            "column" : 20
+          }
+        )
+      },
+      {
+        "name" : "B",
+        "qual_name" : [
+          "B"
+        ]
+      },
+      {
+        "namespace_loc" : {
+          "column" : 1
+        },
+        "target_name_loc" : {
+          "column" : 20
+        },
+        "nested_name_specifier_locs" : [
+          {
+            "kind" : <"Namespace">,
+            "ref" : {
+              "kind" : <"Namespace">,
+              "decl_pointer" : 8,
+              "name" : {
+                "name" : "nsa",
+                "qual_name" : [
+                  "nsa"
+                ]
+              }
+            }
+          }
+        ],
+        "namespace" : {
+          "kind" : <"Namespace">,
+          "decl_pointer" : 9,
+          "name" : {
+            "name" : "nsb",
+            "qual_name" : [
+              "nsb",
+              "nsa"
+            ]
+          }
+        }
+      }
+    )>,
+    <"VarDecl" : (
+      {
+        "pointer" : 14,
+        "source_range" : (
+          {
+            "line" : 8,
+            "column" : 1
+          },
+          {
+            "column" : 9
+          }
+        )
+      },
+      {
+        "name" : "b",
+        "qual_name" : [
+          "b"
+        ]
+      },
+      {
+        "type_ptr" : 11
+      },
+      {
+        "is_global" : true,
+        "init_expr" : <"ImplicitCastExpr" : (
+          {
+            "pointer" : 15,
+            "source_range" : (
+              {
+                "column" : 9
+              },
+              {
+                "column" : 9
+              }
+            )
+          },
+          [
+            <"DeclRefExpr" : (
+              {
+                "pointer" : 16,
+                "source_range" : (
+                  {
+                    "column" : 9
+                  },
+                  {
+                    "column" : 9
+                  }
+                )
+              },
+              [
+              ],
+              {
+                "type_ptr" : 11,
+                "value_kind" : <"LValue">
+              },
+              {
+                "decl_ref" : {
+                  "kind" : <"Var">,
+                  "decl_pointer" : 10,
+                  "name" : {
+                    "name" : "a",
+                    "qual_name" : [
+                      "a",
+                      "nsb",
+                      "nsa"
+                    ]
+                  },
+                  "type_ptr" : 11
+                }
+              }
+            )>
+          ],
+          {
+            "type_ptr" : 11
+          },
+          {
+            "cast_kind" : <"LValueToRValue">,
+            "base_path" : [
+            ]
+          }
+        )>
+      }
+    )>
+  ],
+  {
+  },
+  [
+    <"BuiltinType" : (
+      {
+        "pointer" : 17
+      },
+      <"Void">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 18
+      },
+      <"Bool">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 19
+      },
+      <"Char_S">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 20
+      },
+      <"SChar">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 21
+      },
+      <"Short">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 11
+      },
+      <"Int">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 22
+      },
+      <"Long">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 23
+      },
+      <"LongLong">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 24
+      },
+      <"UChar">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 25
+      },
+      <"UShort">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 26
+      },
+      <"UInt">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 27
+      },
+      <"ULong">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 28
+      },
+      <"ULongLong">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 29
+      },
+      <"Float">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 30
+      },
+      <"Double">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 31
+      },
+      <"LongDouble">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 32
+      },
+      <"Float128">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 33
+      },
+      <"Int128">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 34
+      },
+      <"UInt128">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 35
+      },
+      <"WChar_S">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 36
+      },
+      <"Char16">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 37
+      },
+      <"Char32">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 38
+      },
+      <"Dependent">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 39
+      },
+      <"Overload">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 40
+      },
+      <"BoundMember">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 41
+      },
+      <"PseudoObject">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 42
+      },
+      <"UnknownAny">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 43
+      },
+      <"ARCUnbridgedCast">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 44
+      },
+      <"BuiltinFn">
+    )>,
+    <"ComplexType" : (
+      {
+        "pointer" : 45
+      }
+    )>,
+    <"ComplexType" : (
+      {
+        "pointer" : 46
+      }
+    )>,
+    <"ComplexType" : (
+      {
+        "pointer" : 47
+      }
+    )>,
+    <"ComplexType" : (
+      {
+        "pointer" : 48
+      }
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 49
+      },
+      <"ObjCId">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 50
+      },
+      <"ObjCClass">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 51
+      },
+      <"ObjCSel">
+    )>,
+    <"PointerType" : (
+      {
+        "pointer" : 52
+      },
+      {
+        "type_ptr" : 17
+      }
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 53
+      },
+      <"NullPtr">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 54
+      },
+      <"Half">
+    )>,
+    <"RecordType" : (
+      {
+        "pointer" : 55
+      },
+      56
+    )>,
+    <"PointerType" : (
+      {
+        "pointer" : 57
+      },
+      {
+        "type_ptr" : 11,
+        "is_const" : true
+      }
+    )>,
+    <"PointerType" : (
+      {
+        "pointer" : 58
+      },
+      {
+        "type_ptr" : 19,
+        "is_const" : true
+      }
+    )>,
+    <"PointerType" : (
+      {
+        "pointer" : 59
+      },
+      {
+        "type_ptr" : 19
+      }
+    )>,
+    <"RecordType" : (
+      {
+        "pointer" : 60
+      },
+      61
+    )>,
+    <"ConstantArrayType" : (
+      {
+        "pointer" : 62
+      },
+      60,
+      1
+    )>,
+    <"NoneType" : (
+      {
+        "pointer" : 3
+      }
+    )>
+  ]
+)>

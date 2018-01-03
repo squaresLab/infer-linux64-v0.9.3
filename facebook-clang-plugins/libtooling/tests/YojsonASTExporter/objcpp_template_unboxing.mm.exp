@@ -1,0 +1,605 @@
+<"TranslationUnitDecl" : (
+  {
+    "pointer" : 1,
+    "source_range" : (
+      {
+      },
+      {
+      }
+    )
+  },
+  [
+    <"TypedefDecl" : (
+      {
+        "pointer" : 2,
+        "source_range" : (
+          {
+          },
+          {
+          }
+        ),
+        "is_implicit" : true
+      },
+      {
+        "name" : "__int128_t",
+        "qual_name" : [
+          "__int128_t"
+        ]
+      },
+      <"NoType">,
+      3,
+      {
+      }
+    )>,
+    <"TypedefDecl" : (
+      {
+        "pointer" : 4,
+        "source_range" : (
+          {
+          },
+          {
+          }
+        ),
+        "is_implicit" : true
+      },
+      {
+        "name" : "__uint128_t",
+        "qual_name" : [
+          "__uint128_t"
+        ]
+      },
+      <"NoType">,
+      3,
+      {
+      }
+    )>,
+    <"TypedefDecl" : (
+      {
+        "pointer" : 5,
+        "source_range" : (
+          {
+          },
+          {
+          }
+        ),
+        "is_implicit" : true
+      },
+      {
+        "name" : "SEL",
+        "qual_name" : [
+          "SEL"
+        ]
+      },
+      <"NoType">,
+      3,
+      {
+      }
+    )>,
+    <"TypedefDecl" : (
+      {
+        "pointer" : 6,
+        "source_range" : (
+          {
+          },
+          {
+          }
+        ),
+        "is_implicit" : true
+      },
+      {
+        "name" : "id",
+        "qual_name" : [
+          "id"
+        ]
+      },
+      <"NoType">,
+      3,
+      {
+      }
+    )>,
+    <"TypedefDecl" : (
+      {
+        "pointer" : 7,
+        "source_range" : (
+          {
+          },
+          {
+          }
+        ),
+        "is_implicit" : true
+      },
+      {
+        "name" : "Class",
+        "qual_name" : [
+          "Class"
+        ]
+      },
+      <"NoType">,
+      3,
+      {
+      }
+    )>,
+    <"ObjCInterfaceDecl" : (
+      {
+        "pointer" : 8,
+        "source_range" : (
+          {
+          },
+          {
+          }
+        ),
+        "is_implicit" : true
+      },
+      {
+        "name" : "Protocol",
+        "qual_name" : [
+          "Protocol"
+        ]
+      },
+      [
+      ],
+      {
+      },
+      {
+      }
+    )>,
+    <"TypedefDecl" : (
+      {
+        "pointer" : 9,
+        "source_range" : (
+          {
+          },
+          {
+          }
+        ),
+        "is_implicit" : true
+      },
+      {
+        "name" : "__NSConstantString",
+        "qual_name" : [
+          "__NSConstantString"
+        ]
+      },
+      <"NoType">,
+      3,
+      {
+      }
+    )>,
+    <"TypedefDecl" : (
+      {
+        "pointer" : 10,
+        "source_range" : (
+          {
+          },
+          {
+          }
+        ),
+        "is_implicit" : true
+      },
+      {
+        "name" : "__builtin_ms_va_list",
+        "qual_name" : [
+          "__builtin_ms_va_list"
+        ]
+      },
+      <"NoType">,
+      3,
+      {
+      }
+    )>,
+    <"TypedefDecl" : (
+      {
+        "pointer" : 11,
+        "source_range" : (
+          {
+          },
+          {
+          }
+        ),
+        "is_implicit" : true
+      },
+      {
+        "name" : "__builtin_va_list",
+        "qual_name" : [
+          "__builtin_va_list"
+        ]
+      },
+      <"NoType">,
+      3,
+      {
+      }
+    )>,
+    <"FunctionTemplateDecl" : (
+      {
+        "pointer" : 12,
+        "source_range" : (
+          {
+            "file" : "tests/objcpp_template_unboxing.mm",
+            "line" : 1,
+            "column" : 1
+          },
+          {
+            "line" : 4,
+            "column" : 1
+          }
+        )
+      },
+      {
+        "name" : "box",
+        "qual_name" : [
+          "box"
+        ]
+      },
+      {
+      }
+    )>
+  ],
+  {
+  },
+  [
+    <"BuiltinType" : (
+      {
+        "pointer" : 13
+      },
+      <"Void">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 14
+      },
+      <"Bool">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 15
+      },
+      <"Char_S">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 16
+      },
+      <"SChar">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 17
+      },
+      <"Short">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 18
+      },
+      <"Int">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 19
+      },
+      <"Long">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 20
+      },
+      <"LongLong">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 21
+      },
+      <"UChar">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 22
+      },
+      <"UShort">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 23
+      },
+      <"UInt">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 24
+      },
+      <"ULong">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 25
+      },
+      <"ULongLong">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 26
+      },
+      <"Float">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 27
+      },
+      <"Double">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 28
+      },
+      <"LongDouble">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 29
+      },
+      <"Float128">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 30
+      },
+      <"Int128">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 31
+      },
+      <"UInt128">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 32
+      },
+      <"WChar_S">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 33
+      },
+      <"Char16">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 34
+      },
+      <"Char32">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 35
+      },
+      <"Dependent">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 36
+      },
+      <"Overload">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 37
+      },
+      <"BoundMember">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 38
+      },
+      <"PseudoObject">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 39
+      },
+      <"UnknownAny">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 40
+      },
+      <"ARCUnbridgedCast">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 41
+      },
+      <"BuiltinFn">
+    )>,
+    <"ComplexType" : (
+      {
+        "pointer" : 42
+      }
+    )>,
+    <"ComplexType" : (
+      {
+        "pointer" : 43
+      }
+    )>,
+    <"ComplexType" : (
+      {
+        "pointer" : 44
+      }
+    )>,
+    <"ComplexType" : (
+      {
+        "pointer" : 45
+      }
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 46
+      },
+      <"ObjCId">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 47
+      },
+      <"ObjCClass">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 48
+      },
+      <"ObjCSel">
+    )>,
+    <"PointerType" : (
+      {
+        "pointer" : 49
+      },
+      {
+        "type_ptr" : 13
+      }
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 50
+      },
+      <"NullPtr">
+    )>,
+    <"BuiltinType" : (
+      {
+        "pointer" : 51
+      },
+      <"Half">
+    )>,
+    <"PointerType" : (
+      {
+        "pointer" : 52
+      },
+      {
+        "type_ptr" : 48
+      }
+    )>,
+    <"ObjCObjectType" : (
+      {
+        "pointer" : 53
+      },
+      {
+        "base_type" : 46
+      }
+    )>,
+    <"ObjCObjectPointerType" : (
+      {
+        "pointer" : 54
+      },
+      {
+        "type_ptr" : 53
+      }
+    )>,
+    <"ObjCObjectType" : (
+      {
+        "pointer" : 55
+      },
+      {
+        "base_type" : 47
+      }
+    )>,
+    <"ObjCObjectPointerType" : (
+      {
+        "pointer" : 56
+      },
+      {
+        "type_ptr" : 55
+      }
+    )>,
+    <"ObjCInterfaceType" : (
+      {
+        "pointer" : 57
+      },
+      8
+    )>,
+    <"RecordType" : (
+      {
+        "pointer" : 58
+      },
+      59
+    )>,
+    <"PointerType" : (
+      {
+        "pointer" : 60
+      },
+      {
+        "type_ptr" : 18,
+        "is_const" : true
+      }
+    )>,
+    <"PointerType" : (
+      {
+        "pointer" : 61
+      },
+      {
+        "type_ptr" : 15,
+        "is_const" : true
+      }
+    )>,
+    <"PointerType" : (
+      {
+        "pointer" : 62
+      },
+      {
+        "type_ptr" : 15
+      }
+    )>,
+    <"RecordType" : (
+      {
+        "pointer" : 63
+      },
+      64
+    )>,
+    <"ConstantArrayType" : (
+      {
+        "pointer" : 65
+      },
+      63,
+      1
+    )>,
+    <"TemplateTypeParmType" : (
+      {
+        "pointer" : 66
+      }
+    )>,
+    <"TemplateTypeParmType" : (
+      {
+        "pointer" : 67
+      }
+    )>,
+    <"FunctionProtoType" : (
+      {
+        "pointer" : 68
+      },
+      {
+        "return_type" : 49
+      },
+      {
+        "params_type" : [
+          66
+        ]
+      }
+    )>,
+    <"FunctionProtoType" : (
+      {
+        "pointer" : 69
+      },
+      {
+        "return_type" : 49
+      },
+      {
+        "params_type" : [
+          67
+        ]
+      }
+    )>,
+    <"NoneType" : (
+      {
+        "pointer" : 3
+      }
+    )>
+  ]
+)>
