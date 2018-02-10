@@ -117,7 +117,7 @@ add_opam_git_pin () {
 install_opam_deps () {
     add_opam_git_pin merlin 'https://github.com/the-lambda-church/merlin.git#reason-0.0.1' 87ea0e79
     add_opam_git_pin merlin_extend 'https://github.com/let-def/merlin-extend.git#reason-0.0.1' ef634252
-    add_opam_git_pin reason 'https://github.com/rvantonder/reason.git' f04946f2
+    add_opam_git_pin reason 'https://github.com/squaresLab/reason.git' f04946f2
 
     # trick to avoid rsync'inc the whole directory to opam since we are only interested in
     # installing the dependencies
